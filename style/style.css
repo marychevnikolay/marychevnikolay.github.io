@@ -1,0 +1,561 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1100px;
+}
+.main {
+	background-color: #472424;
+}
+.main-nav ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 13px;
+    font-family: "TruenoLt";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+
+.cart img {
+	width: 20px;
+	height: 20px;
+	margin: 10px;
+}
+
+.btn-login, .btn-register {
+	border: none;
+    font-size: 13px;
+    font-family: "TruenoLt";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 20px;
+}
+.btn-login {
+	background-color: #472424;
+	border: 1px solid #5a3a3a;
+}
+.btn-register {
+	background-color: #ff7373;
+}
+.header {
+	background-color: #623232;
+}
+.header-logo {
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.header-nav ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+    font-family: "TruenoLt";
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.banner {
+	background: url(../img/Layer2.png) left no-repeat;
+	padding: 100px 0;
+}
+.banner-title {
+	text-align: left;
+	padding-left: 30px;
+}
+.banner-title span {
+	font-size: 30px;
+	font-family: "TruenoLt";
+	color: #623232;
+}
+.banner-title h1 {
+	font-size: 70px;
+	font-family: "TruenoUltBlk";
+	color: #623232;
+}
+.banner-title h4 {
+	font-size: 50px;
+	font-family: "TruenoUltBlk";
+	color: #ff7373;
+}
+.banner-title p {
+	font-size: 16px;
+	font-family: "TruenoLt";
+	color: #8a8784;
+	padding-bottom: 40px;
+}
+.btn-browse {
+	font-size: 16px;
+	font-family: "TruenoBd";
+	color: #ffffff;
+	background-color: #ff7373;
+	text-transform: uppercase;
+	padding: 20px 45px;
+}
+.premium-discover {
+	background-image: url(../img/disk.jpg);
+	text-align: center;
+	margin-top: 50px;
+}
+.premium-discover-item {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	text-align: center;
+	padding-bottom: 315px;
+}
+.premium-discover-item img {
+	padding-top: 30px;
+}
+.premium-discover-item h4 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+	padding-left: 70px;
+	padding-top: 40px;
+}
+.premium-discover-item h4 span {
+	font-size: 30px;
+	font-weight: 400;
+	color: #4bd8cd;
+	text-transform: uppercase;
+	text-align: center;
+}
+.btn-view {
+	background-color: #4bd8cd;
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 20px 30px;
+	margin-bottom: 50px;
+}
+.premium-check {
+	background-image: url(../img/arriv.png);
+	text-align: center;
+	padding: 55px 0;
+	margin-top: 30px;
+}
+.premium-check h4 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.premium-check h4 span {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.btn-discover {
+	background-color: #623332;
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 20px 30px;
+	margin-top: 25px;
+}
+.premium-best {
+	background-image: url(../img/atl.jpg);
+	padding-top: 150px;
+	padding-bottom: 33px;
+	text-align: center;
+	margin-top: 30px;
+}
+.premium-best h4 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #ffffff;
+}
+.premium-best h4 span {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ff7373;
+	text-transform: uppercase;
+}
+.premium-feel {
+	background-image: url(../img/prem.png);
+	text-align: center;
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 143px;
+}
+.premium-feel h4 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #6b7072;
+}
+.premium-feel h4 span {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.product {
+	text-align: center;
+	margin-top: 20px;
+}
+.product-filter ul li  {
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+  	font-size: 30px;
+    font-family: "TruenoBd";
+    color: rgb(98, 50, 50);
+    padding-left: 30px;
+}
+.product-brands {
+	padding-top: 40px;
+}
+
+.card {
+	background-color: #ffffff;
+	border: 1px solid #e0dfde;
+	padding: 25px 30px;
+	width: 260px;
+	height: 355px;
+	margin-top: 30px;
+}
+.card-price {
+	font-size: 24px;
+    font-family: "TruenoLt";
+    text-align: left;
+    
+}
+.card-wrapper {
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+	height: 120px;
+	width: 100%;
+}
+
+.card-img-top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.card-body {
+	text-align: center;
+}
+.card-title {
+	font-size: 16px;
+    font-family: "TruenoBd";
+    color: rgb(138, 135, 132);
+    text-transform: uppercase;
+}
+.card-subtitle {
+	font-size: 16px;
+    font-family: "TruenoLt";
+    color: rgb(138, 135, 132);
+}
+.card-article {
+	font-size: 13px;
+    font-family: "TruenoLt";
+    color: #bdb9b5;
+}
+.cart {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #00000050;
+	z-index: 130;
+}	
+
+.cart-body {
+	position: relative;
+	margin: auto;
+	width: 1024px;
+	min-height: 200px;
+	max-height: 640px;
+	background-color: #fff;
+	padding: 25px;
+	overflow: auto;
+	border-radius: 3px;
+}
+
+.cart-title {
+	font-size: 28px;
+	color: #4d5f71
+}
+
+.cart-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 25px 0;
+	border: 1px solid #4d5f713f;
+	border-radius: 3px;
+	padding: 20px;
+}
+
+#cart-empty {
+	font-size: 24px;
+	color: #4d5f71
+}
+
+.cart-close {
+	position: absolute;
+	top: 25px;
+	right: 25px;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24'%3E%3Cpath fill='005bff' d='M12 10.587l6.293-6.294a1 1 0 111.414 1.414l-6.293 6.295 6.293 6.294a1 1 0 11-1.414 1.414L12 13.416 5.707 19.71a1 1 0 01-1.414-1.414l6.293-6.294-6.293-6.295a1 1 0 011.414-1.414L12 10.587z'/%3E%3C/svg%3E");
+}
+
+.cart-total {
+	font-size: 18px;
+}	
+
+span {
+	color: #077c24;
+}
+
+
+.cart-confirm {
+	display: block;
+	margin-left: auto;
+}
+
+
+.test {
+	background: url(../img/tech.jpg);
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 100px;		
+}
+.test-face ul li {
+	list-style: none;
+	display: inline-block;
+	padding-top: 100px;
+	padding-right: 30px;
+	
+}
+.test-face ul li p {
+	display: block;
+	font-size: 16px;
+	font-family: "TruenoBd";
+	color: rgb(255, 255, 255);
+	line-height: 1.625;
+	text-align: center;
+}
+.test-tabs-tabs {
+	position: relative;
+}
+.test-tabs-tabs p{
+	position: absolute;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	font-size: 16px;
+	font-family: "TruenoLt";
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 20px 30px;
+}
+.test-tabs-title {
+	position: relative;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255); 
+	opacity: 0.102;
+	max-width:1000px ;
+	height: 210px;
+	margin-bottom: 20px;
+}
+
+.news {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.news-title h2 {
+	font-size: 30px;
+	font-family: "TruenoBd";
+	color: rgb(98, 50, 50);
+	font-weight: 700;
+	line-height: 1.2;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 50px;
+}
+
+.news-item1 {
+	background-image: url(../img/foto1.jpg);
+	width: 350px;
+	height: 350px;
+} 
+.news-item2 {
+	background-image: url(../img/foto2.jpg);
+	width: 350px;
+	height: 350px;
+} 
+.news-item3 {
+	background-image: url(../img/foto3.jpg);
+	width: 350px;
+	height: 350px;
+} 
+.news-time {
+	padding:40px 10px 0 10px ;
+	
+}  
+.news-time span {
+	font-size: 16px;
+	font-family: "TruenoBd";
+	color: rgb(255, 255, 255);
+	line-height: 1.625;
+	text-align: left;
+}
+.news-coments {
+	color: #ff7373;
+	font-size: 13px;
+	font-family: "TruenoLt";
+	font-weight: 500;
+}
+
+.looking {
+  background-color: #ff7373;
+  margin-top: 100px;
+  padding-bottom: 75px;
+  
+}
+ .looking-item {
+	padding-top: 70px;
+	 display: flex;
+ 	align-items: center;
+  	justify-content: center;
+}
+
+.looking-item img {
+	float: left;
+	padding-right: 30px;
+	
+	
+}
+.looking-title {
+	text-align: left;
+	
+}
+.looking-title h5 {
+	font-size: 30px;
+	font-family: "TruenoBd";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+.looking-title p {
+	font-size: 16px;
+	font-family: "TruenoLt";
+	color: rgb(255, 255, 255);
+	
+}
+.looking-make {
+	text-align: center;
+	padding-top: 75px;
+}
+.btn-looking {
+	background-color: rgb(98, 50, 50);  
+	font-size: 16px;
+	font-family: "TruenoBd";
+	color: rgb(255, 255, 255);
+	line-height: 1.625;
+	text-transform: uppercase;
+	padding: 17px 30px;
+}
+.optima {
+	background-color: rgb(98, 50, 50); 
+}
+.optima-item {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.optima-item h5 {
+	font-size: 16px;
+	font-family: "TruenoLt";
+	color: rgb(255, 255, 255);
+	line-height: 1.625;
+	padding-top: 30px;
+}
+.footer-contact img {
+	background-color: #ff7373;
+	padding: 18px;
+	float: left;
+	margin-right: 20px;
+}
+.optima-line  {
+	border: 1px solid  rgb(255, 255, 255);
+	opacity: 0.149;  
+}
+.optima-wrapper {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.footer-contact-title h5 {
+	font-size: 16px;
+	font-family: "TruenoBd";
+	color: rgb(255, 115, 115);
+	text-transform: uppercase;
+	line-height: 1.625;
+	text-align: left;
+}
+.footer-contact-title p {
+	font-size: 16px;
+	font-family: "TruenoLt";
+	color: #ffffff;
+}  
+.footer-item {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.footer-contact-title ul {
+	padding: 0;
+	margin: 0;
+}
+.footer-contact-title ul li {
+	list-style: none;
+	display: block;
+	padding-top: 7px;
+}
+.footer-contact-title ul li a {
+	font-size: 16px;
+	font-family: "TruenoLt";
+	color: #ffffff;
+	text-decoration: none;
+	
+}
+.footer-title {
+	font-size: 16px;
+	font-family: "TruenoLt";
+	color: rgb(255, 255, 255);
+	line-height: 2.25;
+	text-align: left;
+  }
+.footer-social {
+	text-align: right;
+}  
+.footer-social a img {
+	padding-left: 25px;
+}
